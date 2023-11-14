@@ -1,0 +1,31 @@
+INSERT INTO authors (user_id, composition_id)
+VALUES
+    (11, 13)
+    , (12, 15)
+    , (13, 16)
+    , (14, 12)
+    , (15, 17)
+    , (16, 19)
+    , (18, 20)
+    , (19, 11)
+    , (20, 18)
+    , (20, 19)
+    , (13, 14)
+    , (19, 14);
+
+INSERT INTO genres(composition_id, genre_name)
+VALUES 
+    (11, 'rock')
+    , (11, 'instrumental')
+    , (12, 'hip_hop')
+    , (12, 'reggae')
+    , (13, 'hip_hop')
+    , (14, 'alternative_rock')
+    , (15, 'world_music')
+    , (15, 'vocal_music')
+    , (16, 'punk_rock')
+    , (16, 'experimental_music')
+    , (17, 'disco')
+    , (18, 'indie_rock')
+    , (19, 'pop_music')
+    , (20, 'folk_music');
