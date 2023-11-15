@@ -91,7 +91,7 @@ VALUES
     , (17, 'disco')
     , (18, 'indie_rock')
     , (19, 'pop_music')
-    , (20, 'folk_music'),
+    , (20, 'folk_music')
     , (1, 'rock')
     , (1, 'instrumental')
     , (10, 'hip_hop')
