@@ -32,3 +32,33 @@ VALUES
     , (16, 14)
     , (16, 17)
     , (16, 19);
+
+
+   
+INSERT INTO playlists (composition_id, user_id)
+VALUES 
+    (1, 6)
+    , (2, 6)
+    , (3, 6)
+    , (5, 6)
+    , (9, 6)
+    , (10, 6);
+
+INSERT INTO playlists (composition_id, user_id)
+VALUES 
+    (5, 2)
+    , (2, 2)
+    , (7, 2)
+    , (9, 2)
+    , (10, 2)
+    , (8, 2);
+    
+INSERT INTO limited_access_rights (composition_id, user_id)
+VALUES
+    (8, 1)
+    , (8, 2)
+    , (8, 4)
+    , (8, 6)
+    , (8, 8)
+    , (8, 9)
+    , (8, 10);
