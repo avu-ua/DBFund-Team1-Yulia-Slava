@@ -145,6 +145,37 @@ VALUES
     , (8, 2);
 
 
+-- UPDATE TABLE playlists AS A FLAW HAS BEEN IDENTIFIED:
+-- A NEW COLUMN playlist_number IS REQUIRED TO ENABLE IDENTIFICATION OF
+-- PLAYLISTS WHEN ONE AND THE SAME USER CREATES SEVERAL PLAYLISTS
+ALTER TABLE playlists 
+RENAME COLUMN playlist_id TO entry_id;
+
+ALTER TABLE playlists 
+ADD COLUMN playlist_number INTEGER;
+
+UPDATE playlists 
+SET playlist_number = 1
+WHERE user_id = 16;
+
+UPDATE playlists 
+SET playlist_number = 2
+WHERE user_id = 12;
+
+UPDATE playlists 
+SET playlist_number = 3
+WHERE user_id = 6;
+
+UPDATE playlists 
+SET playlist_number = 4
+WHERE user_id = 2;
+
+ALTER TABLE playlists 
+ALTER COLUMN playlist_number SET NOT NULL;
+
+
+
+
 -- insertions into table "limited_access_rights"
 INSERT INTO limited_access_rights (composition_id, user_id)
 VALUES

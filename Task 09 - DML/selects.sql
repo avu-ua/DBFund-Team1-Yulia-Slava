@@ -43,13 +43,15 @@ select *
 from playlists;
 
 
-select u.last_name || ', ' || u.first_name as playlist_owner
+select p.playlist_number
+, u.last_name || ', ' || u.first_name as playlist_owner
 	, c.title as composition
 from playlists p 
 join compositions c on c.composition_id = p.composition_id 
 join users u on u.user_id = p.user_id 
-order by u.last_name,
-	c.title;
+order by p.playlist_number
+	, u.last_name
+	, c.title;
 
 
 
