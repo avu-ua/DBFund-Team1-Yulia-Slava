@@ -24,7 +24,7 @@ CREATE PROCEDURE insert_new_user(
     first_name_param VARCHAR,
     last_name_param VARCHAR,
     user_email_param VARCHAR,
-    registration_date_param DATE,
+    registration_date_param DATE default now(),
     password_param VARCHAR
 )
 LANGUAGE plpgsql
@@ -42,7 +42,7 @@ CREATE PROCEDURE insert_new_composition(
     file_format_param VARCHAR,
     duration_param INTERVAL,
     text_param TEXT,
-    access_restriction_param VARCHAR
+    access_restriction_param VARCHAR default 'unrestricted'
 )
 LANGUAGE plpgsql
 AS $$
