@@ -1,6 +1,6 @@
 --SELECT statement
 
-CREATE OR REPLACE PROCEDURE get_user_by_id(user_id_param INTEGER)
+CREATE PROCEDURE get_user_by_id(user_id_param INTEGER)
 LANGUAGE plpgsql
 AS $$
 BEGIN
@@ -8,7 +8,7 @@ BEGIN
 END;
 $$;
 
-CREATE OR REPLACE PROCEDURE get_composition_by_title(composition_title_param VARCHAR)
+CREATE PROCEDURE get_composition_by_title(composition_title_param VARCHAR)
 LANGUAGE plpgsql
 AS $$
 BEGIN
@@ -20,7 +20,7 @@ $$;
 
 --INSERT statement
 
-CREATE OR REPLACE PROCEDURE insert_new_user(
+CREATE PROCEDURE insert_new_user(
     first_name_param VARCHAR,
     last_name_param VARCHAR,
     user_email_param VARCHAR,
@@ -36,7 +36,7 @@ END;
 $$;
 
 
-CREATE OR REPLACE PROCEDURE insert_new_composition(
+CREATE PROCEDURE insert_new_composition(
     title_param VARCHAR,
     upload_date_param DATE,
     file_format_param VARCHAR,
