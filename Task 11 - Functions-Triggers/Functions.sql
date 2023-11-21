@@ -1,4 +1,4 @@
-CREATE FUNCTION count_compositions_by_genre(genre_name_param VARCHAR)
+CREATE OR REPLACE FUNCTION count_compositions_by_genre(genre_name_param VARCHAR)
 RETURNS INTEGER AS $$
 DECLARE
     genre_count INTEGER;
@@ -33,7 +33,7 @@ $$ LANGUAGE plpgsql;
 
 
 
-CREATE FUNCTION find_last_uploaded_composition_title()
+CREATE OR REPLACE FUNCTION find_last_uploaded_composition_title()
 RETURNS TABLE (title VARCHAR) AS $$
 BEGIN
     RETURN QUERY
