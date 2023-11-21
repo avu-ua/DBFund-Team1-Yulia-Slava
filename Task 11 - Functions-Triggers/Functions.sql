@@ -1,4 +1,4 @@
-CREATE OR REPLACE FUNCTION count_compositions_by_genre(genre_name_param VARCHAR)
+CREATE FUNCTION count_compositions_by_genre(genre_name_param VARCHAR)
 RETURNS INTEGER AS $$
 BEGIN
     RETURN (
@@ -12,7 +12,7 @@ $$ LANGUAGE plpgsql;
 
 
 
-CREATE OR REPLACE FUNCTION count_registered_users_by_year(registration_year_param INTEGER)
+CREATE FUNCTION count_registered_users_by_year(registration_year_param INTEGER)
 RETURNS INTEGER AS $$
 BEGIN
     RETURN (
@@ -25,7 +25,7 @@ $$ LANGUAGE plpgsql;
 
 
 
-CREATE OR REPLACE FUNCTION find_last_uploaded_composition_title()
+CREATE FUNCTION find_last_uploaded_composition_title()
 RETURNS TABLE (title VARCHAR) AS $$
 BEGIN
     RETURN QUERY
