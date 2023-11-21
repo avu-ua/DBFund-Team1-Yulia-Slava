@@ -19,3 +19,14 @@ BEGIN
         WHERE DATE_PART('year', registration_date) = 2020
     );
 END;
+
+
+CREATE FUNCTION find_last_uploaded_composition_title()
+RETURNS TABLE (title VARCHAR) AS
+BEGIN
+    RETURN QUERY
+        SELECT title
+        FROM compositions
+        ORDER BY upload_date DESC
+        LIMIT 1;
+END;
