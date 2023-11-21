@@ -1,27 +1,35 @@
 CREATE FUNCTION count_compositions_by_genre(genre_name_param VARCHAR)
 RETURNS INTEGER AS $$
+DECLARE
+    genre_count INTEGER;
 BEGIN
-    RETURN (
-        SELECT COUNT(*)
-        FROM compositions c
-        JOIN genres g ON c.composition_id = g.composition_id
-        WHERE g.genre_name = genre_name_param
-    );
+    SELECT COUNT(*)
+    INTO genre_count
+    FROM compositions c
+    JOIN genres g ON c.composition_id = g.composition_id
+    WHERE g.genre_name = genre_name_param;
+
+    RETURN genre_count;
 END;
 $$ LANGUAGE plpgsql;
 
 
 
-CREATE FUNCTION count_registered_users_by_year(registration_year_param INTEGER)
+
+CREATE OR REPLACE FUNCTION count_registered_users_by_year(registration_year_param INTEGER)
 RETURNS INTEGER AS $$
+DECLARE
+    user_count INTEGER;
 BEGIN
-    RETURN (
-        SELECT COUNT(*)
-        FROM users
-        WHERE EXTRACT(YEAR FROM registration_date) = registration_year_param
-    );
+    SELECT COUNT(*)
+    INTO user_count
+    FROM users
+    WHERE EXTRACT(YEAR FROM registration_date) = registration_year_param;
+
+    RETURN user_count;
 END;
 $$ LANGUAGE plpgsql;
+
 
 
 
