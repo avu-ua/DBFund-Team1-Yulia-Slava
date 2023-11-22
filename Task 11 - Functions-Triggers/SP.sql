@@ -24,8 +24,8 @@ CREATE OR REPLACE PROCEDURE insert_new_user(
     first_name_param VARCHAR,
     last_name_param VARCHAR,
     user_email_param VARCHAR,
-    registration_date_param DATE default now(),
-    password_param VARCHAR
+    password_param VARCHAR,
+    registration_date_param DATE default now()
 )
 LANGUAGE plpgsql
 AS $$
