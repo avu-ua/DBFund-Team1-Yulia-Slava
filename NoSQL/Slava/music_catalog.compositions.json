@@ -1,0 +1,671 @@
+[{
+  "_id": {
+    "$oid": "65672341fc13ae6acd4cdfd8"
+  },
+  "title": "Song 1",
+  "upload_date": {
+    "$date": "2020-01-15T00:00:00.000Z"
+  },
+  "file_format": "mp3",
+  "duration": {
+    "$numberDecimal": "3.45"
+  },
+  "logo": null,
+  "description": "This is the first song about something.",
+  "access_restriction": "unrestricted",
+  "author_id": {
+    "$oid": "65674ba2f0f8027bc889e74f"
+  },
+  "commentaries": [
+    {
+      "_comment_id": {
+        "$oid": "6567646c55f1d4b984faace5"
+      },
+      "user_id": {
+        "$oid": "65674ba2f0f8027bc889e753"
+      },
+      "date": {
+        "$date": "2020-01-20T00:00:00.000Z"
+      },
+      "comment": "This track is pure magic! I can't stop listening to it."
+    },
+    {
+      "_comment_id": {
+        "$oid": "6567646c55f1d4b984faace6"
+      },
+      "user_id": {
+        "$oid": "65674ba2f0f8027bc889e751"
+      },
+      "date": {
+        "$date": "2020-01-25T00:00:00.000Z"
+      },
+      "comment": "Thank you so much! I'm thrilled you find the track magical. Your support means the world to me.",
+      "parent_comment_id": {
+        "$oid": "6567646c55f1d4b984faace5"
+      }
+    }
+  ],
+  "genres": [
+    "rock",
+    "instrumental"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65672341fc13ae6acd4cdfd9"
+  },
+  "title": "Jazz Improv",
+  "upload_date": {
+    "$date": "2020-03-22T00:00:00.000Z"
+  },
+  "file_format": "wav",
+  "duration": {
+    "$numberDecimal": "5.20"
+  },
+  "logo": null,
+  "description": "An improvisational jazz piece.",
+  "access_restriction": "registerd users only",
+  "author_id": {
+    "$oid": "65674ba2f0f8027bc889e752"
+  },
+  "genres": [
+    "pop_music"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65672341fc13ae6acd4cdfda"
+  },
+  "title": "Rock Anthem",
+  "upload_date": {
+    "$date": "2021-05-10T00:00:00.000Z"
+  },
+  "file_format": "mp3",
+  "duration": {
+    "$numberDecimal": "4.10"
+  },
+  "logo": null,
+  "description": "A powerful rock anthem.",
+  "access_restriction": "registerd users only",
+  "author_id": {
+    "$oid": "65674ba2f0f8027bc889e74f"
+  },
+  "commentaries": [
+    {
+      "_comment_id": {
+        "$oid": "6567646c55f1d4b984faace7"
+      },
+      "user_id": {
+        "$oid": "65674ba2f0f8027bc889e755"
+      },
+      "date": {
+        "$date": "2021-05-17T00:00:00.000Z"
+      },
+      "comment": "The lyrics speak to my soul. This track is an emotional journey."
+    },
+    {
+      "_comment_id": {
+        "$oid": "6567646c55f1d4b984faace8"
+      },
+      "user_id": {
+        "$oid": "65674ba2f0f8027bc889e753"
+      },
+      "date": {
+        "$date": "2021-05-21T00:00:00.000Z"
+      },
+      "comment": "It warms my heart to hear that the lyrics connect with you. Music is a universal language, and I'm grateful for the connection.",
+      "parent_comment_id": {
+        "$oid": "6567646c55f1d4b984faace7"
+      }
+    }
+  ],
+  "genres": [
+    "disco"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65672341fc13ae6acd4cdfdb"
+  },
+  "title": "Electronic Beat",
+  "upload_date": {
+    "$date": "2021-08-07T00:00:00.000Z"
+  },
+  "file_format": "wav",
+  "duration": {
+    "$numberDecimal": "3.30"
+  },
+  "logo": null,
+  "description": "A catchy electronic beat.",
+  "access_restriction": "registerd users only",
+  "author_id": {
+    "$oid": "65674ba2f0f8027bc889e752"
+  },
+  "genres": [
+    "punk_rock",
+    "experimental_music"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65672341fc13ae6acd4cdfdc"
+  },
+  "title": "Folk Ballad",
+  "upload_date": {
+    "$date": "2022-02-28T00:00:00.000Z"
+  },
+  "file_format": "mp3",
+  "duration": {
+    "$numberDecimal": "4.55"
+  },
+  "logo": null,
+  "description": "A heartfelt folk ballad.",
+  "access_restriction": "registerd users only",
+  "author_id": {
+    "$oid": "65674ba2f0f8027bc889e751"
+  },
+  "genres": [
+    "indie_rock"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65672341fc13ae6acd4cdfdd"
+  },
+  "title": "Latin Rhythm",
+  "upload_date": {
+    "$date": "2022-06-12T00:00:00.000Z"
+  },
+  "file_format": "wav",
+  "duration": {
+    "$numberDecimal": "3.15"
+  },
+  "logo": null,
+  "description": "A lively Latin rhythm.",
+  "access_restriction": "unrestricted",
+  "author_id": {
+    "$oid": "65674ba2f0f8027bc889e750"
+  },
+  "genres": [
+    "folk_music"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65672341fc13ae6acd4cdfde"
+  },
+  "title": "Bluesy Tune",
+  "upload_date": {
+    "$date": "2023-09-05T00:00:00.000Z"
+  },
+  "file_format": "mp3",
+  "duration": {
+    "$numberDecimal": "4.40"
+  },
+  "logo": null,
+  "description": "A soulful bluesy tune.",
+  "access_restriction": "unrestricted",
+  "author_id": [
+    {
+      "$oid": "65674ba2f0f8027bc889e755"
+    },
+    {
+      "$oid": "65674ba2f0f8027bc889e756"
+    }
+  ],
+  "genres": [
+    "world_music",
+    "vocal_music"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65672341fc13ae6acd4cdfdf"
+  },
+  "title": "Acoustic Serenade",
+  "upload_date": {
+    "$date": "2023-11-18T00:00:00.000Z"
+  },
+  "file_format": "wav",
+  "duration": {
+    "$numberDecimal": "2.50"
+  },
+  "logo": null,
+  "description": "A soothing acoustic serenade.",
+  "access_restriction": [
+    "65674ba2f0f8027bc889e74f",
+    "65674ba2f0f8027bc889e750",
+    "65674ba2f0f8027bc889e752",
+    "65674ba2f0f8027bc889e754",
+    "65674ba2f0f8027bc889e756",
+    "65674ba2f0f8027bc889e757",
+    "65674ba2f0f8027bc889e758"
+  ],
+  "author_id": {
+    "$oid": "65674ba2f0f8027bc889e753"
+  },
+  "genres": [
+    "alternative_rock"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65672341fc13ae6acd4cdfe0"
+  },
+  "title": "Hip Hop Groove",
+  "upload_date": {
+    "$date": "2020-07-03T00:00:00.000Z"
+  },
+  "file_format": "mp3",
+  "duration": {
+    "$numberDecimal": "3.20"
+  },
+  "logo": null,
+  "description": "A cool hip hop groove.",
+  "access_restriction": "registerd users only",
+  "author_id": {
+    "$oid": "65674ba2f0f8027bc889e754"
+  },
+  "genres": [
+    "hip_hop"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65672341fc13ae6acd4cdfe2"
+  },
+  "title": "Dance Party",
+  "upload_date": {
+    "$date": "2021-12-30T00:00:00.000Z"
+  },
+  "file_format": "wav",
+  "duration": {
+    "$numberDecimal": "6.00"
+  },
+  "logo": null,
+  "description": "Get ready to dance all night.",
+  "access_restriction": "unrestricted",
+  "author_id": [
+    {
+      "$oid": "65674ba2f0f8027bc889e758"
+    },
+    {
+      "$oid": "65674ba2f0f8027bc889e755"
+    }
+  ],
+  "commentaries": [
+    {
+      "_comment_id": {
+        "$oid": "6567646c55f1d4b984faace9"
+      },
+      "user_id": {
+        "$oid": "65674ba2f0f8027bc889e757"
+      },
+      "date": {
+        "$date": "2022-01-02T00:00:00.000Z"
+      },
+      "comment": "The beats in this song are absolutely infectious. It's my new favorite!"
+    },
+    {
+      "_comment_id": {
+        "$oid": "6567646c55f1d4b984faacf0"
+      },
+      "user_id": {
+        "$oid": "65674ba2f0f8027bc889e756"
+      },
+      "date": {
+        "$date": "2022-01-05T00:00:00.000Z"
+      },
+      "comment": "This is the perfect song to unwind and relax. It has a calming vibe that I love.",
+      "parent_comment_id": {
+        "$oid": "6567646c55f1d4b984faace9"
+      }
+    }
+  ],
+  "genres": [
+    "hip_hop",
+    "reggae"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65672341fc13ae6acd4cdfe3"
+  },
+  "title": "Around the corner now",
+  "upload_date": {
+    "$date": "2023-11-15T00:00:00.000Z"
+  },
+  "file_format": "mp3",
+  "duration": {
+    "$numberDecimal": "4.32"
+  },
+  "logo": null,
+  "description": "Remix of Queen",
+  "access_restriction": "unrestricted",
+  "author_id": {
+    "$oid": "65674ba2f0f8027bc889e761"
+  },
+  "genres": [
+    "rock",
+    "instrumental"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65672341fc13ae6acd4cdfe4"
+  },
+  "title": "Gotcha",
+  "upload_date": {
+    "$date": "2023-11-09T00:00:00.000Z"
+  },
+  "file_format": "mp3",
+  "duration": {
+    "$numberDecimal": "2.59"
+  },
+  "logo": null,
+  "description": "Could be in Eurovision final",
+  "access_restriction": "unrestricted",
+  "author_id": {
+    "$oid": "65674ba2f0f8027bc889e75c"
+  },
+  "genres": [
+    "hip_hop",
+    "reggae"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65672341fc13ae6acd4cdfe5"
+  },
+  "title": "I'm not Russian",
+  "upload_date": {
+    "$date": "2022-02-25T00:00:00.000Z"
+  },
+  "file_format": "wav",
+  "duration": {
+    "$numberDecimal": "3.40"
+  },
+  "logo": null,
+  "description": "Anti-war song",
+  "access_restriction": "unrestricted",
+  "author_id": {
+    "$oid": "65674ba2f0f8027bc889e75e"
+  },
+  "genres": [
+    "hip_hop"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65672341fc13ae6acd4cdfe6"
+  },
+  "title": "Bunker grandpa",
+  "upload_date": {
+    "$date": "2023-03-01T00:00:00.000Z"
+  },
+  "file_format": "wma",
+  "duration": {
+    "$numberDecimal": "4.25"
+  },
+  "logo": null,
+  "description": "Satiric political song",
+  "access_restriction": "unrestricted",
+  "author_id": [
+    {
+      "$oid": "65674ba2f0f8027bc889e75b"
+    },
+    {
+      "$oid": "65674ba2f0f8027bc889e761"
+    }
+  ],
+  "commentaries": [
+    {
+      "_comment_id": {
+        "$oid": "6567646c55f1d4b984faacf1"
+      },
+      "user_id": {
+        "$oid": "65674ba2f0f8027bc889e75c"
+      },
+      "date": {
+        "$date": "2023-03-17T00:00:00.000Z"
+      },
+      "comment": "Why would any one want to write or listen a song about that moron?"
+    },
+    {
+      "_comment_id": {
+        "$oid": "6567646c55f1d4b984faacf2"
+      },
+      "user_id": {
+        "$oid": "65674ba2f0f8027bc889e761"
+      },
+      "date": {
+        "$date": "2023-03-21T00:00:00.000Z"
+      },
+      "comment": "Hey man, this is a satirical composition, don't you get it?",
+      "parent_comment_id": {
+        "$oid": "6567646c55f1d4b984faacf1"
+      }
+    }
+  ],
+  "genres": [
+    "alternative_rock"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65672341fc13ae6acd4cdfe7"
+  },
+  "title": "Pagarizantalli",
+  "upload_date": {
+    "$date": "2023-09-09T00:00:00.000Z"
+  },
+  "file_format": "wma",
+  "duration": {
+    "$numberDecimal": "6.02"
+  },
+  "logo": null,
+  "description": "Song about Georgian wine",
+  "access_restriction": [
+    "65674ba2f0f8027bc889e759",
+    "65674ba2f0f8027bc889e75a",
+    "65674ba2f0f8027bc889e75c",
+    "65674ba2f0f8027bc889e75e",
+    "65674ba2f0f8027bc889e760",
+    "65674ba2f0f8027bc889e761",
+    "65674ba2f0f8027bc889e762"
+  ],
+  "author_id": {
+    "$oid": "65674ba2f0f8027bc889e75a"
+  },
+  "commentaries": [
+    {
+      "_comment_id": {
+        "$oid": "6567646c55f1d4b984faacf3"
+      },
+      "user_id": {
+        "$oid": "65674ba2f0f8027bc889e75e"
+      },
+      "date": {
+        "$date": "2023-10-02T00:00:00.000Z"
+      },
+      "comment": "What a thrilling composition! Can author clarify where can I buy a bottle of that 'Pagarizantalli' wine?"
+    },
+    {
+      "_comment_id": {
+        "$oid": "6567646c55f1d4b984faacf4"
+      },
+      "user_id": {
+        "$oid": "65674ba2f0f8027bc889e75a"
+      },
+      "date": {
+        "$date": "2023-10-04T00:00:00.000Z"
+      },
+      "comment": "Wow, many thanks! My dear, ANY wine in Georgia is beatiful and will make you horizontal soon enough. But the idea is great, perhaps a wine with such trademark will soon appear on the shelves",
+      "parent_comment_id": {
+        "$oid": "6567646c55f1d4b984faacf3"
+      }
+    }
+  ],
+  "genres": [
+    "world_music",
+    "vocal_music"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65672341fc13ae6acd4cdfe8"
+  },
+  "title": "Goodwill gesture",
+  "upload_date": {
+    "$date": "2023-08-23T00:00:00.000Z"
+  },
+  "file_format": "mp3",
+  "duration": {
+    "$numberDecimal": "3.48"
+  },
+  "logo": null,
+  "description": "Saga about March 2022 events",
+  "access_restriction": [
+    "65674ba2f0f8027bc889e759",
+    "65674ba2f0f8027bc889e75b",
+    "65674ba2f0f8027bc889e75c",
+    "65674ba2f0f8027bc889e75f",
+    "65674ba2f0f8027bc889e761"
+  ],
+  "author_id": {
+    "$oid": "65674ba2f0f8027bc889e75b"
+  },
+  "genres": [
+    "experimental_music",
+    "punk_rock"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65672341fc13ae6acd4cdfe9"
+  },
+  "title": "Meaningless",
+  "upload_date": {
+    "$date": "2023-04-06T00:00:00.000Z"
+  },
+  "file_format": "mp3",
+  "duration": {
+    "$numberDecimal": "4.23"
+  },
+  "logo": null,
+  "description": "The composition name speaks for itself",
+  "access_restriction": [
+    "unrestricted"
+  ],
+  "author_id": {
+    "$oid": "65674ba2f0f8027bc889e75d"
+  },
+  "genres": [
+    "disco"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65672341fc13ae6acd4cdfea"
+  },
+  "title": "And then I ate a mushroom",
+  "upload_date": {
+    "$date": "2023-10-12T00:00:00.000Z"
+  },
+  "file_format": "mp3",
+  "duration": {
+    "$numberDecimal": "3.56"
+  },
+  "logo": null,
+  "description": "Prequel of \"Hop, hey, la-la-ley\"",
+  "access_restriction": [
+    "unrestricted"
+  ],
+  "author_id": {
+    "$oid": "65674ba2f0f8027bc889e762"
+  },
+  "commentaries": [
+    {
+      "_comment_id": {
+        "$oid": "6567646c55f1d4b984faacf5"
+      },
+      "user_id": {
+        "$oid": "65674ba2f0f8027bc889e75e"
+      },
+      "date": {
+        "$date": "2023-10-31T00:00:00.000Z"
+      },
+      "comment": "Wonderful composition! Makes me feel happy!"
+    }
+  ],
+  "genres": [
+    "indie_rock"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65672341fc13ae6acd4cdfeb"
+  },
+  "title": "Labuda-samba",
+  "upload_date": {
+    "$date": "2023-07-31T00:00:00.000Z"
+  },
+  "file_format": "wav",
+  "duration": {
+    "$numberDecimal": "4.31"
+  },
+  "logo": null,
+  "description": "The best latin vibes composition",
+  "access_restriction": [
+    "unrestricted"
+  ],
+  "author_id": [
+    {
+      "$oid": "65674ba2f0f8027bc889e762"
+    },
+    {
+      "$oid": "65674ba2f0f8027bc889e75e"
+    }
+  ],
+  "commentaries": [
+    {
+      "_comment_id": {
+        "$oid": "6567646c55f1d4b984faacf6"
+      },
+      "user_id": {
+        "$oid": "65674ba2f0f8027bc889e75c"
+      },
+      "date": {
+        "$date": "2023-11-09T00:00:00.000Z"
+      },
+      "comment": "Anybody, do you like this composition? It's been written by me"
+    }
+  ],
+  "genres": [
+    "pop_music"
+  ]
+},
+{
+  "_id": {
+    "$oid": "65674549f0f8027bc889e746"
+  },
+  "title": "We are going catch big one",
+  "upload_date": {
+    "$date": "2023-03-08T00:00:00.000Z"
+  },
+  "file_format": "mp3",
+  "duration": {
+    "$numberDecimal": "5.42"
+  },
+  "logo": null,
+  "description": "To all fishermen",
+  "access_restriction": [
+    "unrestricted"
+  ],
+  "author_id": {
+    "$oid": "65674ba2f0f8027bc889e760"
+  },
+  "genres": [
+    "folk_music"
+  ]
+}]

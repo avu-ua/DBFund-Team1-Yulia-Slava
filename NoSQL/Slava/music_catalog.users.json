@@ -1,0 +1,292 @@
+[{
+  "_id": {
+    "$oid": "65674ba2f0f8027bc889e74f"
+  },
+  "first_name": "John",
+  "last_name": "Doe",
+  "user_email": "john.doe@email.com",
+  "registration_date": {
+    "$date": "2020-01-15T00:00:00.000Z"
+  },
+  "password": "password123"
+},
+{
+  "_id": {
+    "$oid": "65674ba2f0f8027bc889e750"
+  },
+  "first_name": "Alice",
+  "last_name": "Smith",
+  "user_email": "alice.smith@email.com",
+  "registration_date": {
+    "$date": "2020-03-22T00:00:00.000Z"
+  },
+  "password": "securepassword",
+  "playlists": [
+    {
+      "plailist_no": 3,
+      "compositions": [
+        "65672341fc13ae6acd4cdfd9",
+        "65672341fc13ae6acd4cdfdc",
+        "65672341fc13ae6acd4cdfde",
+        "65672341fc13ae6acd4cdfdf",
+        "65672341fc13ae6acd4cdfe0",
+        "65672341fc13ae6acd4cdfe2"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65674ba2f0f8027bc889e751"
+  },
+  "first_name": "Bob",
+  "last_name": "Johnson",
+  "user_email": "bob.johnson@email.com",
+  "registration_date": {
+    "$date": "2021-05-10T00:00:00.000Z"
+  },
+  "password": "musiclover123"
+},
+{
+  "_id": {
+    "$oid": "65674ba2f0f8027bc889e752"
+  },
+  "first_name": "Emma",
+  "last_name": "Williams",
+  "user_email": "emma.williams@email.com",
+  "registration_date": {
+    "$date": "2021-08-07T00:00:00.000Z"
+  },
+  "password": "password456"
+},
+{
+  "_id": {
+    "$oid": "65674ba2f0f8027bc889e753"
+  },
+  "first_name": "David",
+  "last_name": "Miller",
+  "user_email": "david.miller@email.com",
+  "registration_date": {
+    "$date": "2022-02-28T00:00:00.000Z"
+  },
+  "password": "mysecretpass"
+},
+{
+  "_id": {
+    "$oid": "65674ba2f0f8027bc889e754"
+  },
+  "first_name": "Olivia",
+  "last_name": "Davis",
+  "user_email": "olivia.davis@email.com",
+  "registration_date": {
+    "$date": "2022-06-12T00:00:00.000Z"
+  },
+  "password": "1234olivia",
+  "playlists": [
+    {
+      "plailist_no": 3,
+      "compositions": [
+        "65672341fc13ae6acd4cdfd8",
+        "65672341fc13ae6acd4cdfd9",
+        "65672341fc13ae6acd4cdfda",
+        "65672341fc13ae6acd4cdfdc",
+        "65672341fc13ae6acd4cdfe0",
+        "65672341fc13ae6acd4cdfe2"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65674ba2f0f8027bc889e755"
+  },
+  "first_name": "James",
+  "last_name": "Taylor",
+  "user_email": "james.taylor@email.com",
+  "registration_date": {
+    "$date": "2023-09-05T00:00:00.000Z"
+  },
+  "password": "taylorjam"
+},
+{
+  "_id": {
+    "$oid": "65674ba2f0f8027bc889e756"
+  },
+  "first_name": "Sophia",
+  "last_name": "Brown",
+  "user_email": "sophia.brown@email.com",
+  "registration_date": {
+    "$date": "2023-11-18T00:00:00.000Z"
+  },
+  "password": "brownie456"
+},
+{
+  "_id": {
+    "$oid": "65674ba2f0f8027bc889e757"
+  },
+  "first_name": "William",
+  "last_name": "Moore",
+  "user_email": "william.moore@email.com",
+  "registration_date": {
+    "$date": "2020-07-03T00:00:00.000Z"
+  },
+  "password": "password789"
+},
+{
+  "_id": {
+    "$oid": "65674ba2f0f8027bc889e758"
+  },
+  "first_name": "Ava",
+  "last_name": "Clark",
+  "user_email": "ava.clark@email.com",
+  "registration_date": {
+    "$date": "2021-12-30T00:00:00.000Z"
+  },
+  "password": "clarky987"
+},
+{
+  "_id": {
+    "$oid": "65674ba2f0f8027bc889e759"
+  },
+  "first_name": "Adam",
+  "last_name": "Israelevich",
+  "user_email": "apple@apple.org",
+  "registration_date": {
+    "$date": "2000-12-31T23:00:00.000Z"
+  },
+  "password": "i_love_Eva"
+},
+{
+  "_id": {
+    "$oid": "65674ba2f0f8027bc889e75a"
+  },
+  "first_name": "Katso",
+  "last_name": "Vinoshvilli",
+  "user_email": "shashlik@tbiliso.ge",
+  "registration_date": {
+    "$date": "2017-10-12T00:00:00.000Z"
+  },
+  "password": "kindzmarauli",
+  "playlists": [
+    {
+      "plailist_no": 2,
+      "compositions": [
+        "65672341fc13ae6acd4cdfe4",
+        "65672341fc13ae6acd4cdfe7",
+        "65672341fc13ae6acd4cdfe9",
+        "65672341fc13ae6acd4cdfeb",
+        "65674549f0f8027bc889e746"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65674ba2f0f8027bc889e75b"
+  },
+  "first_name": "James",
+  "last_name": "Bond",
+  "user_email": "007@cia.gov",
+  "registration_date": {
+    "$date": {
+      "$numberLong": "-394070400000"
+    }
+  },
+  "password": "sEcReT_sErViCe"
+},
+{
+  "_id": {
+    "$oid": "65674ba2f0f8027bc889e75c"
+  },
+  "first_name": "Santa",
+  "last_name": "Joulupukki",
+  "user_email": "saariselka@lapland@fn",
+  "registration_date": {
+    "$date": "2000-01-01T00:00:00.000Z"
+  },
+  "password": "reindeer&snow"
+},
+{
+  "_id": {
+    "$oid": "65674ba2f0f8027bc889e75d"
+  },
+  "first_name": "Chingachcook",
+  "last_name": "Python",
+  "user_email": "cheroki@idaho.org",
+  "registration_date": {
+    "$date": "2019-12-12T00:00:00.000Z"
+  },
+  "password": "tomahawk-1"
+},
+{
+  "_id": {
+    "$oid": "65674ba2f0f8027bc889e75e"
+  },
+  "first_name": "Pedro",
+  "last_name": "Rodriguez",
+  "user_email": "pedro@copacobana.br",
+  "registration_date": {
+    "$date": "2003-08-09T00:00:00.000Z"
+  },
+  "password": "sombrero",
+  "playlists": [
+    {
+      "plailist_no": 1,
+      "compositions": [
+        "65672341fc13ae6acd4cdfe4",
+        "65672341fc13ae6acd4cdfe5",
+        "65672341fc13ae6acd4cdfe7",
+        "65672341fc13ae6acd4cdfeb",
+        "65674549f0f8027bc889e746"
+      ]
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "65674ba2f0f8027bc889e75f"
+  },
+  "first_name": "Mickey",
+  "last_name": "Mouse",
+  "user_email": "mick@pet.org",
+  "registration_date": {
+    "$date": "2021-03-08T00:00:00.000Z"
+  },
+  "password": "screw-cats"
+},
+{
+  "_id": {
+    "$oid": "65674ba2f0f8027bc889e760"
+  },
+  "first_name": "Hanz",
+  "last_name": "Muller",
+  "user_email": "nuller@munich.de",
+  "registration_date": {
+    "$date": "2020-11-28T00:00:00.000Z"
+  },
+  "password": "Freundschaftsbeziehungen"
+},
+{
+  "_id": {
+    "$oid": "65674ba2f0f8027bc889e761"
+  },
+  "first_name": "Pierre",
+  "last_name": "Dubois",
+  "user_email": "viva-la-france@marseille.fr",
+  "registration_date": {
+    "$date": "2019-04-29T00:00:00.000Z"
+  },
+  "password": "cherche_la_femme"
+},
+{
+  "_id": {
+    "$oid": "65674ba2f0f8027bc889e762"
+  },
+  "first_name": "Singh",
+  "last_name": "Singh",
+  "user_email": "kama@sutra.in",
+  "registration_date": {
+    "$date": "2009-02-06T00:00:00.000Z"
+  },
+  "password": "gkdnsermytkts"
+}]

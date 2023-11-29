@@ -1,0 +1,24 @@
+use music_catalog
+
+// select title s of compositions which are 
+// available to everyone
+db.compositions.find({ access_restriction: "unrestricted" }, { _id: 0, title: 1})
+
+
+
+// select titles of all compositions uploaded in the year 2023
+db.compositions.find({
+  $expr: {
+    $eq: [
+      { $year: { $dateFromString: { dateString: "$upload_date" } } },
+      2023
+    ]
+  }
+}, { title: 1, _id: 0 })
+
+
+// count number of compositions for each music genre
+db.Books.aggregate([
+  { $unwind: "$genres" },
+  { $group: { _id: "$genres", count: { $sum: 1 } } }
+])
