@@ -1,0 +1,162 @@
+[
+  {
+    "_id": 101,
+    "first_name": "John",
+    "last_name": "Doe",
+    "user_email": "john.doe@email.com",
+    "registration_date": "2020-01-15",
+    "password": "password123"
+  },
+  {
+    "_id": 102,
+    "first_name": "Alice",
+    "last_name": "Smith",
+    "user_email": "alice.smith@email.com",
+    "registration_date": "2020-03-22",
+    "password": "securepassword"
+  },
+  {
+    "_id": 103,
+    "first_name": "Bob",
+    "last_name": "Johnson",
+    "user_email": "bob.johnson@email.com",
+    "registration_date": "2021-05-10",
+    "password": "musiclover123"
+  },
+  {
+    "_id": 104,
+    "first_name": "Emma",
+    "last_name": "Williams",
+    "user_email": "emma.williams@email.com",
+    "registration_date": "2021-08-07",
+    "password": "password456"
+  },
+  {
+    "_id": 105,
+    "first_name": "David",
+    "last_name": "Miller",
+    "user_email": "david.miller@email.com",
+    "registration_date": "2022-02-28",
+    "password": "mysecretpass"
+  },
+  {
+    "_id": 106,
+    "first_name": "Olivia",
+    "last_name": "Davis",
+    "user_email": "olivia.davis@email.com",
+    "registration_date": "2022-06-12",
+    "password": "1234olivia"
+  },
+  {
+    "_id": 107,
+    "first_name": "James",
+    "last_name": "Taylor",
+    "user_email": "james.taylor@email.com",
+    "registration_date": "2023-09-05",
+    "password": "taylorjam"
+  },
+  {
+    "_id": 108,
+    "first_name": "Sophia",
+    "last_name": "Brown",
+    "user_email": "sophia.brown@email.com",
+    "registration_date": "2023-11-18",
+    "password": "brownie456"
+  },
+  {
+    "_id": 109,
+    "first_name": "William",
+    "last_name": "Moore",
+    "user_email": "william.moore@email.com",
+    "registration_date": "2020-07-03",
+    "password": "password789"
+  },
+  {
+    "_id": 110,
+    "first_name": "Ava",
+    "last_name": "Clark",
+    "user_email": "ava.clark@email.com",
+    "registration_date": "2021-12-30",
+    "password": "clarky987"
+  },
+  {
+    "_id": 111,
+    "first_name": "Adam",
+    "last_name": "Israelevich",
+    "user_email": "apple@apple.org",
+    "registration_date": "01-01-01",
+    "password": "i_love_Eva"
+  },
+  {
+    "_id": 112,
+    "first_name": "Katso",
+    "last_name": "Vinoshvilli",
+    "user_email": "shashlik@tbiliso.ge",
+    "registration_date": "2017-10-12",
+    "password": "kindzmarauli"
+  },
+  {
+    "_id": 113,
+    "first_name": "James",
+    "last_name": "Bond",
+    "user_email": "007@cia.gov",
+    "registration_date": "1957-07-07",
+    "password": "sEcReT_sErViCe"
+  },
+  {
+    "_id": 114,
+    "first_name": "Santa",
+    "last_name": "Joulupukki",
+    "user_email": "saariselka@lapland@fn",
+    "registration_date": "2000-01-01",
+    "password": "reindeer&snow"
+  },
+  {
+    "_id": 115,
+    "first_name": "Chingachcook",
+    "last_name": "Python",
+    "user_email": "cheroki@idaho.org",
+    "registration_date": "2019-12-12",
+    "password": "tomahawk-1"
+  },
+  {
+    "_id": 116,
+    "first_name": "Pedro",
+    "last_name": "Rodriguez",
+    "user_email": "pedro@copacobana.br",
+    "registration_date": "2003-08-09",
+    "password": "sombrero"
+  },
+  {
+    "_id": 117,
+    "first_name": "Mickey",
+    "last_name": "Mouse",
+    "user_email": "mick@pet.org",
+    "registration_date": "2021-03-08",
+    "password": "screw-cats"
+  },
+  {
+    "_id": 118,
+    "first_name": "Hanz",
+    "last_name": "Muller",
+    "user_email": "nuller@munich.de",
+    "registration_date": "2020-11-28",
+    "password": "Freundschaftsbeziehungen"
+  },
+  {
+    "_id": 119,
+    "first_name": "Pierre",
+    "last_name": "Dubois",
+    "user_email": "viva-la-france@marseille.fr",
+    "registration_date": "2019-04-29",
+    "password": "cherche_la_femme"
+  },
+  {
+    "_id": 120,
+    "first_name": "Singh",
+    "last_name": "Singh",
+    "user_email": "kama@sutra.in",
+    "registration_date": "2009-02-06",
+    "password": "gkdnsermytkts"
+  }
+]
