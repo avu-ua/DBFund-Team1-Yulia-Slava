@@ -10,7 +10,7 @@ db.compositions.find({ access_restriction: "unrestricted" }, { _id: 0, title: 1}
 db.compositions.find({
   $expr: {
     $eq: [
-      { $year: { $dateFromString: { dateString: "$upload_date" } } },
+      { $year: "$upload_date" },
       2023
     ]
   }
@@ -18,7 +18,7 @@ db.compositions.find({
 
 
 // count number of compositions for each music genre
-db.Books.aggregate([
+db.compositions.aggregate([
   { $unwind: "$genres" },
   { $group: { _id: "$genres", count: { $sum: 1 } } }
 ])
